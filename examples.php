@@ -10,9 +10,9 @@ $builder = new SqlBuilder();
 $users = new UsersDirector($builder);
 
 $config = [
-    'dsn' => 'mysql:host=localhost;dbname=db_user',
-    'user' => 'user',
-    'password' => 'pass'
+    'dsn' => 'mysql:host=localhost;dbname=db_ecommerce',
+    'user' => 'root',
+    'password' => 'root'
 ];
 
 DbSingleton::configure($config);
