@@ -13,7 +13,7 @@ class UsersDirector implements DirectorInterface
 
     function getSqlAll(): string
     {
-        $this->builder->setTable('user');
+        $this->builder->setTable('tb_user');
         return $this->builder->getAllString();
     }
 }
